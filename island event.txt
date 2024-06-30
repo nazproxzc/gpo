@@ -1,8 +1,5 @@
-while true do
-    wait(13)
-    local Speed = 100
-function toTargetWait(a)local b=(a.p-game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").Position).Magnitude;tweenrach=game:GetService('TweenService'):Create(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"),TweenInfo.new(b/Speed,Enum.EasingStyle.Linear),
-{CFrame=a})tweenrach:Play()end;toTargetWait(CFrame.new(12759.3466796875, 315.1069030761719, 2749.8642578125
-))
+local Speed = 20
 
-end
+function toTargetWait(a)local b=(a.p-game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").Position).Magnitude;tweenrach=game:GetService('TweenService'):Create(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"),TweenInfo.new(b/Speed,Enum.EasingStyle.Linear),
+{CFrame=a})tweenrach:Play()end;toTargetWait(CFrame.new(12686.123046875, 117.88310241699219, 2610.675048828125
+))
