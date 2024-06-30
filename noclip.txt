@@ -1,4 +1,6 @@
-  local Noclip = nil
+while true do
+    wait(1)
+    local Noclip = nil
 local Clip = nil
 
 function noclip()
@@ -22,3 +24,5 @@ function clip()
 end
 
 noclip() -- to toggle noclip() and clip()
+
+end
